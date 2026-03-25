@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Deploily | AI Code, Production Ready</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Deploily LLC bridges the gap between AI-generated code and production-grade software architecture. We offer E-payment integration, code review, refactoring, and more."/>
+    
+    <!-- External CSS -->
+    <link href="index.css" rel="stylesheet"/>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <!-- External JS (Tailwind Config + logic) -->
+    <script src="index.js" defer></script>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed overflow-x-hidden">
+
+    <!-- TopAppBar -->
+    <header class="fixed top-0 w-full z-50 glass-nav">
+        <nav class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+            <div class="flex items-center gap-2">
+                <img alt="Deploily" class="h-8 w-auto" src="https://lh3.googleusercontent.com/aida/ADBb0uhFE0bGIJ90Rk59sjRypv8iVUbGJptk8CxuISJt5sF0ZsIdZ38qZ3jfZ4aSVnOLNG2O2NrypZIhHACy57LfrHxmxopF9QNp5EltJDZDdPGwpn6J8Zei2Hq2Z9B5o6RmLBX5brIiqh2WBhbk4ckZtAgHJgXrSSfddF20sB2QObiTADYUahLS2Z9zH3gEgH_5v9oMAlUTpF5ctIAfhnF79PQDtIUAJpKHuaSslsGBUlkrHctKQIMHDZXcoU8z4EkWzxUPDiE3nI2qSw"/>
+                <span class="text-xl font-extrabold tracking-tight text-slate-900 font-headline">Deploily</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a class="text-slate-600 font-medium hover:text-primary transition-colors duration-300 text-sm" href="#services">Services</a>
+                <a class="text-slate-600 font-medium hover:text-primary transition-colors duration-300 text-sm" href="#process">Process</a>
+                <a class="bg-primary text-white px-5 py-2 rounded-full font-semibold text-sm hover:opacity-90 transition-all" href="#contact">Get Started</a>
+            </div>
+            <button class="md:hidden text-slate-900">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: Hero -->
+        <section class="relative pt-36 pb-20 md:pt-56 md:pb-40 px-6 overflow-hidden">
+            <div class="max-w-7xl mx-auto flex flex-col items-center text-center reveal">
+                <!-- Logo Anchor -->
+                <div class="mb-10 transition-transform hover:scale-105 duration-700">
+                    <img alt="Deploily LLC Logo" class="h-24 md:h-32 w-auto drop-shadow-2xl" src="https://lh3.googleusercontent.com/aida/ADBb0uhFE0bGIJ90Rk59sjRypv8iVUbGJptk8CxuISJt5sF0ZsIdZ38qZ3jfZ4aSVnOLNG2O2NrypZIhHACy57LfrHxmxopF9QNp5EltJDZDdPGwpn6J8Zei2Hq2Z9B5o6RmLBX5brIiqh2WBhbk4ckZtAgHJgXrSSfddF20sB2QObiTADYUahLS2Z9zH3gEgH_5v9oMAlUTpF5ctIAfhnF79PQDtIUAJpKHuaSslsGBUlkrHctKQIMHDZXcoU8z4EkWzxUPDiE3nI2qSw"/>
+                </div>
+                <div class="inline-flex items-center px-4 py-1.5 rounded-full bg-primary/5 text-primary font-bold text-xs mb-8 tracking-[0.1em] uppercase border border-primary/10">
+                    <span class="material-symbols-outlined text-[14px] mr-1.5" style="font-variation-settings: 'FILL' 1;">bolt</span>
+                    Deploily LLC
+                </div>
+                <h1 class="font-headline text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-slate-900 mb-8 max-w-5xl leading-[1.05]">
+                    AI Code, <span class="text-transparent bg-clip-text signature-gradient">Production Ready.</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-600 font-medium mb-12 max-w-2xl leading-relaxed">
+                    We bridge the gap between AI-generated code and production-grade software architecture.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 items-center">
+                    <a class="signature-gradient text-white px-10 py-4 rounded-full font-bold text-lg premium-shadow hover:premium-shadow-hover hover:-translate-y-0.5 transition-all duration-300" href="#contact">
+                        Get a Free Audit
+                    </a>
+                    <a class="text-slate-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-slate-50 transition-colors border border-slate-200" href="#services">
+                        Our Expertise
+                    </a>
+                </div>
+            </div>
+            <!-- Atmospheric Depth Elements -->
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 -z-10 w-full h-full pointer-events-none opacity-40">
+                <div class="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-primary/10 blur-[120px] rounded-full"></div>
+                <div class="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-secondary/5 blur-[120px] rounded-full"></div>
+            </div>
+        </section>
+
+        <!-- Section 2: Our Services -->
+        <section class="py-32 px-6 bg-slate-50/50 border-y border-slate-100" id="services">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-20 reveal">
+                    <h2 class="font-headline text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">Our Services</h2>
+                    <p class="text-slate-500 text-lg max-w-xl">Engineering excellence for the next generation of software development.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Service 1 -->
+                    <div class="service-card bg-white p-8 rounded-xl reveal shadow-sm" style="animation-delay: 0.1s">
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-8">
+                            <span class="material-symbols-outlined text-2xl">payments</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-3 text-slate-900">E-Payment Integration</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Seamless and secure integration of high-volume online payment systems and global gateways.</p>
+                    </div>
+                    <!-- Service 2 - Highlighted -->
+                    <div class="service-card bg-white p-8 rounded-xl border-2 border-primary/10 relative overflow-hidden reveal shadow-sm" style="animation-delay: 0.2s">
+                        <div class="absolute top-4 right-4">
+                            <span class="bg-secondary/10 text-secondary text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider border border-secondary/20">Core</span>
+                        </div>
+                        <div class="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary mb-8">
+                            <span class="material-symbols-outlined text-2xl">terminal</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-3 text-slate-900">Code Review &amp; Refactoring</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-6">We audit, fix, and optimize LLM-generated code to meet strict production security and performance standards.</p>
+                        <div class="flex items-center text-secondary font-bold text-xs uppercase tracking-widest">
+                            <span>AI Optimization</span>
+                            <span class="material-symbols-outlined ml-2 text-sm" style="font-variation-settings: 'FILL' 1;">stars</span>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card bg-white p-8 rounded-xl reveal shadow-sm" style="animation-delay: 0.3s">
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-8">
+                            <span class="material-symbols-outlined text-2xl">rule</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-3 text-slate-900">End-to-End Testing</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Automated testing suites that ensure your application works flawlessly across every possible user journey.</p>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="service-card bg-white p-8 rounded-xl reveal shadow-sm" style="animation-delay: 0.4s">
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-8">
+                            <span class="material-symbols-outlined text-2xl">cloud_upload</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-3 text-slate-900">Cloud Infrastructure</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Scalable deployment on AWS, Vercel, or GCP with a focus on CI/CD automation and zero-downtime.</p>
+                    </div>
+                    <!-- Service 5 -->
+                    <div class="service-card bg-white p-8 rounded-xl reveal shadow-sm" style="animation-delay: 0.5s">
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-8">
+                            <span class="material-symbols-outlined text-2xl">install_mobile</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-3 text-slate-900">Mobile Publishing</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Expert navigation through App Store and Google Play requirements for a smooth launch experience.</p>
+                    </div>
+                    <!-- Service 6 -->
+                    <div class="service-card bg-white p-8 rounded-xl reveal shadow-sm" style="animation-delay: 0.6s">
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-8">
+                            <span class="material-symbols-outlined text-2xl">speed</span>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-3 text-slate-900">API Load Testing</h3>
+                        <p class="text-slate-500 text-sm leading-relaxed">Simulated high-traffic scenarios to identify bottlenecks before your users do. Guaranteed scalability.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Why Deploily? -->
+        <section class="py-32 px-6 overflow-hidden">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <div class="relative reveal">
+                    <div class="aspect-square rounded-2xl signature-gradient relative flex items-center justify-center overflow-hidden premium-shadow">
+                        <div class="absolute inset-0 opacity-10 flex flex-col gap-4 p-8">
+                            <div class="h-2 bg-white rounded-full w-3/4"></div>
+                            <div class="h-2 bg-white rounded-full w-1/2"></div>
+                            <div class="h-2 bg-white rounded-full w-2/3"></div>
+                            <div class="h-2 bg-white rounded-full w-5/6"></div>
+                            <div class="h-2 bg-white rounded-full w-1/3"></div>
+                        </div>
+                        <div class="z-10 bg-white/10 backdrop-blur-xl p-10 rounded-2xl border border-white/20">
+                            <span class="material-symbols-outlined text-white text-8xl" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+                        </div>
+                    </div>
+                    <!-- Status Chip -->
+                    <div class="absolute -bottom-6 -right-6 bg-white px-6 py-4 rounded-xl premium-shadow-hover flex items-center gap-3 border border-slate-50">
+                        <div class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse shadow-[0_0_12px_#fe6500]"></div>
+                        <span class="font-bold text-xs text-slate-900 uppercase tracking-widest">Active Audit</span>
+                    </div>
+                </div>
+                <div class="space-y-8 reveal" style="animation-delay: 0.2s">
+                    <h2 class="font-headline text-4xl md:text-5xl font-extrabold leading-tight tracking-tight text-slate-900">Confidence at Scale.</h2>
+                    <p class="text-xl text-slate-600 leading-relaxed">
+                        As AI accelerates development, production standards often lag. We ensure your velocity doesn't come at the cost of stability.
+                    </p>
+                    <p class="text-slate-500 leading-relaxed">
+                        Deploily provides the safety net modern engineering teams need. From deep code audits to complex cloud orchestration, we specialize in the "last mile" of software delivery.
+                    </p>
+                    <div class="pt-8 grid grid-cols-2 gap-10 border-t border-slate-100">
+                        <div>
+                            <div class="text-primary font-headline text-4xl font-extrabold mb-1">100%</div>
+                            <div class="text-slate-400 text-[10px] font-bold uppercase tracking-[0.2em]">Audit Success</div>
+                        </div>
+                        <div>
+                            <div class="text-secondary font-headline text-4xl font-extrabold mb-1">24/7</div>
+                            <div class="text-slate-400 text-[10px] font-bold uppercase tracking-[0.2em]">Live Monitoring</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: How We Work -->
+        <section class="py-32 px-6 bg-slate-900 text-white relative overflow-hidden" id="process">
+            <div class="max-w-7xl mx-auto relative z-10">
+                <div class="text-center mb-24 reveal">
+                    <h2 class="font-headline text-4xl md:text-5xl font-extrabold mb-4">Our Methodology</h2>
+                    <p class="text-slate-400 text-lg max-w-2xl mx-auto">A systematic approach to engineering excellence.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 reveal" style="animation-delay: 0.3s">
+                    <!-- Step 1 -->
+                    <div class="group">
+                        <div class="mb-6 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center font-bold text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">1</div>
+                            <div class="h-px flex-grow bg-slate-800"></div>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-4">Analyze</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Deep dive into your codebase, security posture, and cloud architecture.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="group">
+                        <div class="mb-6 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center font-bold text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">2</div>
+                            <div class="h-px flex-grow bg-slate-800"></div>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-4">Optimize</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Strategic refactoring and performance tuning for critical paths.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="group">
+                        <div class="mb-6 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center font-bold text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">3</div>
+                            <div class="h-px flex-grow bg-slate-800"></div>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-4">Validate</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Stress testing and automated security scans under realistic load.</p>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="group">
+                        <div class="mb-6 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-full border border-slate-700 bg-secondary border-none text-white flex items-center justify-center font-bold">4</div>
+                            <div class="h-px flex-grow bg-slate-800"></div>
+                        </div>
+                        <h3 class="font-headline text-xl font-bold mb-4">Ship</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Controlled rollout with full observability and automated rollbacks.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Subtle dark gradient -->
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900 to-slate-950 -z-0"></div>
+        </section>
+
+        <!-- Section 5: Get In Touch -->
+        <section class="py-32 px-6 bg-white" id="contact">
+            <div class="max-w-4xl mx-auto reveal">
+                <div class="text-center mb-16">
+                    <h2 class="font-headline text-4xl md:text-5xl font-extrabold mb-4 tracking-tight text-slate-900">Let's build something stable.</h2>
+                    <p class="text-slate-500 text-lg">Tell us about your technical challenges and we'll design a solution.</p>
+                </div>
+                <form class="space-y-6 bg-slate-50 p-8 md:p-12 rounded-2xl border border-slate-100">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold text-slate-500 uppercase tracking-widest">Full Name</label>
+                            <input class="w-full bg-white border border-slate-200 rounded-lg p-4 focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none text-slate-900" placeholder="John Doe" type="text"/>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold text-slate-500 uppercase tracking-widest">Email Address</label>
+                            <input class="w-full bg-white border border-slate-200 rounded-lg p-4 focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none text-slate-900" placeholder="john@company.com" type="email"/>
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <label class="text-xs font-bold text-slate-500 uppercase tracking-widest">Project Details</label>
+                        <textarea class="w-full bg-white border border-slate-200 rounded-lg p-4 focus:ring-2 focus:ring-primary focus:border-transparent transition-all outline-none text-slate-900" placeholder="What are your current bottlenecks?" rows="5"></textarea>
+                    </div>
+                    <button class="w-full signature-gradient text-white font-bold py-5 rounded-lg hover:opacity-90 transition-all premium-shadow flex items-center justify-center gap-2" type="submit">
+                        Send Inquiry
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 py-20">
+            <div class="flex flex-col md:flex-row justify-between items-start gap-12">
+                <div class="max-w-xs">
+                    <div class="flex items-center gap-2 mb-6">
+                        <img alt="Deploily" class="h-6 w-auto grayscale opacity-80" src="https://lh3.googleusercontent.com/aida/ADBb0uhFE0bGIJ90Rk59sjRypv8iVUbGJptk8CxuISJt5sF0ZsIdZ38qZ3jfZ4aSVnOLNG2O2NrypZIhHACy57LfrHxmxopF9QNp5EltJDZDdPGwpn6J8Zei2Hq2Z9B5o6RmLBX5brIiqh2WBhbk4ckZtAgHJgXrSSfddF20sB2QObiTADYUahLS2Z9zH3gEgH_5v9oMAlUTpF5ctIAfhnF79PQDtIUAJpKHuaSslsGBUlkrHctKQIMHDZXcoU8z4EkWzxUPDiE3nI2qSw"/>
+                        <span class="text-lg font-bold text-slate-900 font-headline">Deploily</span>
+                    </div>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-8">
+                        Bridging the gap between AI development and production-grade stability. Engineered with precision.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-slate-600 hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-sm">language</span></a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-12">
+                    <div class="space-y-4">
+                        <h4 class="font-bold text-xs uppercase tracking-[0.2em] text-slate-900">Company</h4>
+                        <nav class="flex flex-col gap-3">
+                            <a class="text-slate-500 text-sm hover:text-primary transition-colors" href="#">About Us</a>
+                            <a class="text-slate-500 text-sm hover:text-primary transition-colors" href="#">Careers</a>
+                            <a class="text-slate-500 text-sm hover:text-primary transition-colors" href="#">Blog</a>
+                        </nav>
+                    </div>
+                    <div class="space-y-4">
+                        <h4 class="font-bold text-xs uppercase tracking-[0.2em] text-slate-900">Platform</h4>
+                        <nav class="flex flex-col gap-3">
+                            <a class="text-slate-500 text-sm hover:text-primary transition-colors" href="#services">Services</a>
+                            <a class="text-slate-500 text-sm hover:text-primary transition-colors" href="#process">Methodology</a>
+                            <a class="text-slate-500 text-sm hover:text-primary transition-colors" href="#">Partners</a>
+                        </nav>
+                    </div>
+                    <div class="space-y-4">
+                        <h4 class="font-bold text-xs uppercase tracking-[0.2em] text-slate-900">Legal</h4>
+                        <nav class="flex flex-col gap-3">
+                            <a class="text-slate-500 text-sm hover:text-primary transition-colors" href="#">Privacy</a>
+                            <a class="text-slate-500 text-sm hover:text-primary transition-colors" href="#">Terms</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20 pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-slate-400 text-xs">© 2024 Deploily LLC. All rights reserved.</p>
+                <p class="text-slate-400 text-xs">Designed for Production.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
