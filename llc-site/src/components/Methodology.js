@@ -8,7 +8,13 @@ const Confidence = () => {
     <section className="py-32 px-6 bg-background overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         <div className="relative reveal">
-          <div className="aspect-square rounded-3xl signature-gradient relative flex items-center justify-center overflow-hidden premium-shadow float-element">
+          {/* Status Chip */}
+          <div className="absolute -bottom-6 -right-6 bg-white px-6 py-4 rounded-xl premium-shadow-hover flex items-center gap-3 border border-slate-100 z-20">
+            <div className="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse shadow-[0_0_12px_rgba(249,115,22,0.6)]"></div>
+            <span className="font-bold text-xs text-slate-900 uppercase tracking-widest">{t.confidence.status}</span>
+          </div>
+
+          <div className="aspect-square rounded-3xl signature-gradient relative flex items-center justify-center overflow-hidden premium-shadow">
             <div className="absolute inset-0 opacity-20 flex flex-col gap-6 p-10">
               <div className="h-2 bg-white rounded-full w-3/4"></div>
               <div className="h-2 bg-white rounded-full w-1/2"></div>
@@ -16,14 +22,15 @@ const Confidence = () => {
               <div className="h-2 bg-white rounded-full w-5/6"></div>
               <div className="h-2 bg-white rounded-full w-1/3"></div>
             </div>
-            <div className="z-10 bg-white/10 backdrop-blur-2xl p-12 rounded-3xl border border-white/20 scale-reveal">
-              <span className="material-symbols-outlined text-white text-9xl" style={{ fontVariationSettings: "'FILL' 1" }}>verified_user</span>
+            <div className="z-10 bg-white p-8 rounded-3xl shadow-2xl scale-reveal">
+              <div className="relative">
+                <img 
+                  src="/qrcode.png" 
+                  alt="Scan for mobile" 
+                  className="w-56 h-56 rounded-2xl"
+                />
+              </div>
             </div>
-          </div>
-          {/* Status Chip */}
-          <div className="absolute -bottom-6 -right-6 bg-surface px-8 py-5 rounded-2xl shadow-2xl flex items-center gap-4 border border-white/10 scale-reveal" style={{ animationDelay: '0.5s' }}>
-            <div className="w-3 h-3 rounded-full bg-secondary animate-pulse shadow-[0_0_15px_#f97316]"></div>
-            <span className="font-bold text-sm text-on-surface uppercase tracking-widest">{t.confidence.status}</span>
           </div>
         </div>
         <div className="space-y-10 reveal" style={{ animationDelay: '0.2s' }}>

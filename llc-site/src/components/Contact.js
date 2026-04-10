@@ -119,14 +119,12 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-16">
           <div className="max-w-xs space-y-8">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-secondary/20 flex items-center justify-center">
-                <img 
-                  alt="Deploily" 
-                  className="h-6 w-auto" 
-                  src="https://lh3.googleusercontent.com/aida/ADBb0uhFE0bGIJ90Rk59sjRypv8iVUbGJptk8CxuISJt5sF0ZsIdZ38qZ3jfZ4aSVnOLNG2O2NrypZIhHACy57LfrHxmxopF9QNp5EltJDZDdPGwpn6J8Zei2Hq2Z9B5o6RmLBX5brIiqh2WBhbk4ckZtAgHJgXrSSfddF20sB2QObiTADYUahLS2Z9zH3gEgH_5v9oMAlUTpF5ctIAfhnF79PQDtIUAJpKHuaSslsGBUlkrHctKQIMHDZXcoU8z4EkWzxUPDiE3nI2qSw"
-                />
-              </div>
-              <span className="text-2xl font-black text-on-surface font-headline tracking-tight">Deploily</span>
+              <img 
+                alt="Deploily" 
+                className="h-10 w-auto" 
+                src="/logo.png"
+              />
+              <span className="text-2xl font-black text-secondary font-headline tracking-tight -ml-2">Deploily</span>
             </div>
             <p className="text-on-surface-variant text-base leading-relaxed font-medium">
               {t.footer.tagline}

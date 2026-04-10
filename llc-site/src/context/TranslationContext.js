@@ -61,7 +61,7 @@ const translations = {
     },
     footer: {
       tagline: "Bridging the gap between AI development and production-grade stability. Engineered with precision.",
-      copyright: "© 2024 Deploily LLC. All rights reserved.",
+      copyright: "© 2026 Deploily LLC. All rights reserved.",
       status: "System Status: Operational"
     }
   },
@@ -70,7 +70,7 @@ const translations = {
     hero: {
       badge: "Deploily LLC",
       title: "Code IA, ",
-      titleGradient: "Prêt pour la Prod.",
+      titleGradient: "Prêt pour la production.",
       subtitle: "Nous comblons le fossé entre le code généré par l'IA et l'architecture logicielle de production.",
       cta: "Commencer"
     },
@@ -124,7 +124,7 @@ const translations = {
     },
     footer: {
       tagline: "Combler le fossé entre le développement IA et la stabilité de production. Conçu avec précision.",
-      copyright: "© 2024 Deploily LLC. Tous droits réservés.",
+      copyright: "© 2026 Deploily LLC. Tous droits réservés.",
       status: "Statut du Système : Opérationnel"
     }
   },
@@ -187,7 +187,7 @@ const translations = {
     },
     footer: {
       tagline: "سد الفجوة بين تطوير الذكاء الاصطناعي واستقرار معايير الإنتاج. تم هندستها بدقة.",
-      copyright: "© 2024 ديبلويلي LLC. جميع الحقوق محفوظة.",
+      copyright: "© 2026 ديبلويلي LLC. جميع الحقوق محفوظة.",
       status: "حالة النظام: يعمل بشكل طبيعي"
     }
   }

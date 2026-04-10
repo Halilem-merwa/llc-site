@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
           <div className="flex items-center gap-2 mb-8">
-            <span className="material-symbols-outlined text-primary" data-icon="grid_view">grid_view</span>
+            <img alt="Deploily" className="h-8 w-auto" src="/logo.png" />
             <span className="font-black text-xl text-on-surface font-headline">Deploily</span>
           </div>
           <p className="text-on-surface-variant font-headline text-sm tracking-wide max-w-xs mb-8">

@@ -22,7 +22,7 @@ const Navbar = () => {
           <img
             alt="Deploily"
             className="h-9 w-auto transition-transform group-hover:scale-110 duration-500 drop-shadow-[0_0_15px_rgba(249,115,22,0.4)]"
-            src="https://lh3.googleusercontent.com/aida/ADBb0uhFE0bGIJ90Rk59sjRypv8iVUbGJptk8CxuISJt5sF0ZsIdZ38qZ3jfZ4aSVnOLNG2O2NrypZIhHACy57LfrHxmxopF9QNp5EltJDZDdPGwpn6J8Zei2Hq2Z9B5o6RmLBX5brIiqh2WBhbk4ckZtAgHJgXrSSfddF20sB2QObiTADYUahLS2Z9zH3gEgH_5v9oMAlUTpF5ctIAfhnF79PQDtIUAJpKHuaSslsGBUlkrHctKQIMHDZXcoU8z4EkWzxUPDiE3nI2qSw"
+            src="/logo.png"
           />
           <span className="text-xl md:text-2xl font-black tracking-tighter text-secondary font-headline">Deploily</span>
         </div>

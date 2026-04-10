@@ -20,7 +20,7 @@ const Hero = () => {
           <img 
             alt="Deploily LLC Logo" 
             className="h-28 md:h-40 w-auto drop-shadow-[0_0_70px_rgba(249,115,22,0.6)]" 
-            src="https://lh3.googleusercontent.com/aida/ADBb0uhFE0bGIJ90Rk59sjRypv8iVUbGJptk8CxuISJt5sF0ZsIdZ38qZ3jfZ4aSVnOLNG2O2NrypZIhHACy57LfrHxmxopF9QNp5EltJDZDdPGwpn6J8Zei2Hq2Z9B5o6RmLBX5brIiqh2WBhbk4ckZtAgHJgXrSSfddF20sB2QObiTADYUahLS2Z9zH3gEgH_5v9oMAlUTpF5ctIAfhnF79PQDtIUAJpKHuaSslsGBUlkrHctKQIMHDZXcoU8z4EkWzxUPDiE3nI2qSw"
+            src="/logo.png"
           />
         </div>
         <div className="inline-flex items-center px-4 py-1.5 rounded-full bg-secondary/10 text-secondary font-bold text-xs mb-8 tracking-[0.1em] uppercase border border-secondary/20 reveal" style={{ animationDelay: '0.1s' }}>
