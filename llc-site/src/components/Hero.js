@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+// Build trigger: 2026-04-10T20:49:00Z
 import { useTranslation } from '@/context/TranslationContext';
 
 const Hero = () => {
